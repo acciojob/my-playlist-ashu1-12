@@ -1,12 +1,41 @@
 /*  your css code here. If applicable */
 body{
 	background-color:rgb(204,204,204);
+	display: flex;
+    align-items: center;       /* centers vertically */
+    flex-direction: column; 
 }
 h1,h2{
 	text-align: center;
 }
 li{
 	list-style-type:none;
+}
+.table-1 {
+    background-color: white;
+    border: 1px solid black;
+    width: 95%;
+	border-radius:5px;	
+}
+.table-2 {
+    background-color: white;
+    border: 1px solid black;
+    width: 85%;
+	border-radius:5px;	
+    box-sizing: border-box;
+    
+}
+{
+	margin: 10px
+}
+ul{
+	padding: 10px;
+}
+.player_one, .player_two{
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	padding:10px;
+    box-sizing: border-box;
 }
 a{
 	text-decoration-line:none;
